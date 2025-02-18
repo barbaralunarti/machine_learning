@@ -13,7 +13,7 @@ import scikitplot as skplt  # Para visualizações de métricas de modelos de ma
 
 # %%
 # Carregamento dos dados a partir de um arquivo CSV
-df = pd.read_csv("../data/dados_pontos.csv", sep=";")  # Carrega os dados em um DataFrame
+df = pd.read_csv("dados_pontos.csv", sep=";")  # Carrega os dados em um DataFrame
 
 # %%
 # Definição das variáveis independentes (features) e dependente (target)
